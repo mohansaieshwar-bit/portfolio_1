@@ -57,6 +57,8 @@ function SectionHeader({ label, title, text }) {
   );
 }
 
+import mohanImg from './img/mohan.png';
+
 function App() {
   return (
     <div className="site-root">
@@ -115,7 +117,7 @@ function App() {
           </div>
 
           <div className="hero-visual panel-soft">
-            <img src="./img/mohan.png" alt="Mohan Sai Eshwar Boppudi - Profile" className="hero-image" style={{width: '400px', height: '400px'}} />
+            <img src={mohanImg} alt="Mohan Sai Eshwar Boppudi - Profile" className="hero-image" />
           </div>
         </section>
 
