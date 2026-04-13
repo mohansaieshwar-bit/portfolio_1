@@ -1,14 +1,10 @@
-# GitHub Pages Deployment TODO
+# TODO: Fix React + Vite Portfolio Image Issue for GitHub Pages
 
-## Remaining Steps:
-- [x] 1. Create directories and copy image
-- [x] 2. Update vite.config.js
-- [x] 3. Update src/App.jsx
-- [x] 4. Create deploy.yml
-- [x] 5. Delete old img dir
-- [x] 6. Test npm run build & preview
-- [ ] 7. Commit & push
-- [ ] 8. Configure repo settings Pages -> GitHub Actions
+## Plan Steps Completed ✅
 
-Last updated: Initial creation
+### 1. [x] Create TODO.md with task steps
+### 2. [x] Edit src/App.jsx - Replace img src to use BASE_URL (now uses `${import.meta.env.BASE_URL}img/mohan.png`)
+### 3. [x] Test locally (npm run dev & npm run preview) - Dev server running at localhost:5174/portfolio_1/, image loads with BASE_URL
+### 4. [x] Attempt completion
 
+**Status**: Task complete. Image fixed for GitHub Pages deployment under /portfolio_1/. Dev server confirms functionality. Ready for git push/deploy.

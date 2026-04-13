@@ -117,7 +117,7 @@ function App() {
           </div>
 
           <div className="hero-visual panel-soft">
-            <img src="/img/mohan.png" alt="Mohan Sai Eshwar Boppudi - Profile" className="hero-image" />
+            <img src={`${import.meta.env.BASE_URL}img/mohan.png`} alt="Mohan Sai Eshwar Boppudi - Profile" className="hero-image" />
           </div>
         </section>
 
